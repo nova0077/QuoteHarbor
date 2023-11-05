@@ -1,0 +1,44 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 50px;
+  transition: color 0.3s;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar a {
+    margin: 10px 0;
+  }
+}
+
+.navbar a:hover {
+  color: #0056b3;
+}
+
+.page-content {
+  padding: 20px;
+}

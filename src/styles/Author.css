@@ -1,0 +1,44 @@
+/* Author.css */
+
+.quote-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.input-form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.input-form button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #28a745; /* Green color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-form button:hover {
+  background-color: #218838; /* Darker green color on hover */
+}
